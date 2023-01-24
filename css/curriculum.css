@@ -1,0 +1,133 @@
+body {
+    background-color: #e3f2fd;
+    padding: 5%;
+}
+
+.sidebar {
+    display: grid;
+    background-color: #0944a1;
+    place-items: center left;
+    width: 60%;
+    grid-template-columns: minmax(150px, 75%) 1fr;
+    padding: 2rem;
+    color: #e3f2fd;
+    border-radius: 20px;
+}
+
+.sidebar h1,
+h2,
+h3 {
+    margin: 0;
+    font-family: Franklin Gothic Medium;
+}
+
+.sidebar img {
+    width: 100%;
+}
+
+.block {
+    display: flex;
+    place-items: center;
+}
+
+.toright {
+    margin-left: auto;
+}
+
+.curriculum_title_section {
+    display: grid;
+    place-items: center left;
+    grid-template-columns: minmax(1px, 5%) 1fr;
+}
+
+.curriculum_title_section h1 {
+    font-family: Franklin Gothic Medium;
+    color: #448aff;
+    margin-left: 1rem;
+}
+
+.curriculum_title_section img {
+    width: 100%;
+}
+
+.curriculum_body_section {
+    font-family: Candara;
+    border-left: 5px solid black;
+    padding: 1rem;
+    margin-left: 5%;
+    margin-top: 1rem;
+    width: 100%;
+    margin-bottom: 5%;
+    text-align: justify;
+}
+
+.curriculum_body_section ul {
+    width: 80%;
+}
+
+.colums {
+    display: grid;
+    grid-template-columns: minmax(150px, 50%) 1fr;
+}
+
+.curriculum_body_section h2 {
+    font-family: Franklin Gothic Medium;
+    color: #82b1ff;
+}
+
+.text-hr {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #444;
+}
+
+.text-hr::after {
+    background: black;
+    content: "";
+    height: 5px;
+    width: 100%;
+    margin-left: 10%;
+}
+
+.text-hr img {
+    width: 5%;
+}
+
+.contact {
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+
+.footerbody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footerbox {
+    flex: 1 1 45%;
+    flex: 0 1 45%;
+    margin: 10px;
+}
+
+.footerbox a {
+    text-decoration: none;
+    font-family: Franklin Gothic Medium;
+    color: black;
+}
+
+.footerbox a:hover {
+    color: #448aff;
+}
+
+.footerboxitems {
+    display: grid;
+    place-items: center;
+    grid-template-columns: minmax(10px, 5%) 1fr;
+}
+
+.footerboxitems img {
+    width: 300%;
+}
